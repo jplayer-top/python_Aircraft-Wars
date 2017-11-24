@@ -44,7 +44,7 @@ def main():
         pygame.display.update()
 
 
-# 添加图片在屏幕上方
+# 添加图片在屏幕上方!
 def add_image(groups):
     groups.update()
     groups.draw(screen)
