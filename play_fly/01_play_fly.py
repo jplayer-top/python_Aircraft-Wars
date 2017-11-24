@@ -126,6 +126,7 @@ def main():
     e_enemy = Enemy(screen)
     cur_y = 670
     while True:
+
         screen.blit(bg, (0, 0))
         a_hero.to_display()
         e_enemy.to_display()
