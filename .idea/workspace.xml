@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="af53043e-da9d-4afe-ad4c-f829631b4add" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/play_fly/SpriteHeroOver.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/play_fly/SpriteEnemy.py" afterPath="$PROJECT_DIR$/play_fly/SpriteEnemy.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/play_fly/SpriteHero.py" afterPath="$PROJECT_DIR$/play_fly/SpriteHero.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/play_fly/air_crast.py" afterPath="$PROJECT_DIR$/play_fly/air_crast.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,15 +12,15 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/python_Aircraft_Wars$air_crast.coverage" NAME="air_crast Coverage Results" MODIFIED="1511518566513" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/play_fly" />
+    <SUITE FILE_PATH="coverage/python_Aircraft_Wars$air_crast.coverage" NAME="air_crast Coverage Results" MODIFIED="1511760636518" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/play_fly" />
   </component>
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="air_crast.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/play_fly/air_crast.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="73" column="33" lean-forward="true" selection-start-line="73" selection-start-column="33" selection-end-line="73" selection-end-column="33" />
+            <state relative-caret-position="487">
+              <caret line="93" column="12" lean-forward="false" selection-start-line="93" selection-start-column="12" selection-end-line="93" selection-end-column="12" />
               <folding>
                 <element signature="e#15#26#0" expanded="true" />
               </folding>
@@ -45,8 +41,8 @@
       <file leaf-file-name="SpriteHeroOver.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/play_fly/SpriteHeroOver.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+            <state relative-caret-position="240">
+              <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -341,8 +337,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/play_fly/SpriteHeroOver.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        <state relative-caret-position="240">
+          <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
           <folding />
         </state>
       </provider>
@@ -357,8 +353,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/play_fly/air_crast.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="73" column="33" lean-forward="true" selection-start-line="73" selection-start-column="33" selection-end-line="73" selection-end-column="33" />
+        <state relative-caret-position="487">
+          <caret line="93" column="12" lean-forward="false" selection-start-line="93" selection-start-column="12" selection-end-line="93" selection-end-column="12" />
           <folding>
             <element signature="e#15#26#0" expanded="true" />
           </folding>

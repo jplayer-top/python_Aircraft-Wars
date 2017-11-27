@@ -41,9 +41,10 @@ def main():
     # 初始化事件
     pygame.time.set_timer(CREATE_ENEMY_EVENT, 1000)
     pygame.time.set_timer(Bullet, 500)
-    pygame.time.set_timer(OVER, 50)
+    pygame.time.set_timer(OVER, 200)
     a = True
     b = True
+    is_boom = 0
     while True:
         click.tick(60)
         add_image(groups_bg)
@@ -66,12 +67,11 @@ def main():
                     enemy = GSpriteEnemy("./feiji/enemy0.png", random.randint(1, 4))
                     groups_enemy.add(enemy)
             elif event.type == OVER:
-                if not a and b:
-                    for i in range(1, 5):
-                        time.sleep(0.05)
-                        over = GSpriteHeroOver("./feiji/hero_blowup_n%s.png" % (i), hero.rect.x)
+                if not a and b:     # 飞机boom
+                    is_boom += 1
+                    if is_boom < 5:
+                        over = GSpriteHeroOver("./feiji/hero_blowup_n%s.png" % is_boom, hero.rect.x)
                         groups_over.add(over)
-                        b = False
 
             elif event.type == Bullet:
                 print "bullet"
@@ -91,7 +91,8 @@ def main():
             hero.is_to_left = 0
         elif hero.rect.x > 430:
             hero.is_to_left = 0
-        hero.to_left(hero.is_to_left)
+        if a:
+            hero.to_left(hero.is_to_left)
         pygame.display.update()
 
 
